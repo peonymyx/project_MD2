@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "asd@asd.vn",
+      "username": "phuongtran0510",
+      "password": "123",
+      "isAdmin": true,
+      "cart": []
+    },
+    {
+      "userName": "Phuong",
+      "password": "U2FsdGVkX1+B3jykUls1oOR+rNWYWV+X0mRZ3dLvt3U=",
+      "email": "asd@asd.com",
+      "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Unknown_person.jpg/925px-Unknown_person.jpg",
+      "isAdmin": false,
+      "status": true,
+      "cart": [],
+      "id": 2
+    }
+  ]
+}

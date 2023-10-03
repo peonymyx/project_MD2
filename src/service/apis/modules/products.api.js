@@ -10,4 +10,7 @@ export default {
     addProduct: async function (data) {
         return await axios.post(import.meta.env.VITE_SERVER_HOST + "products", data)
     },
+    editStatus: async function(id){
+        return await axios.put(import.meta.env.VITE_SERVER_HOST + "products/" + id, )
+    }
 }

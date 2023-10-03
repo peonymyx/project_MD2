@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 export default function Login() {
   useEffect(() => {
     if(localStorage.getItem("token")) {
+      alert("You are signed in!")
       window.location.href = "/"
     }
   }, [])
@@ -27,7 +28,7 @@ export default function Login() {
       email: document.getElementById("mail").value,
       password: document.getElementById("password").value
     }
-    await api.userApi.findByUserName(data.email)
+    await api.userApi.findByEmail(data.email)
     .then(res => {
       if(res.data.length != 0) {
         

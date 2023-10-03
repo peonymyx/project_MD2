@@ -1,22 +1,36 @@
 {
   "users": [
     {
-      "id": 1,
-      "email": "asd@asd.vn",
-      "username": "phuongtran0510",
-      "password": "123",
+      "userName": "Phuong",
+      "password": "U2FsdGVkX1+b2wskzpSSCh6sbWLuad94Npf5nnWHV5A=",
+      "email": "phuongtran.31221021478@st.ueh.edu.vn",
+      "avatar": "https://firebasestorage.googleapis.com/v0/b/part-time-2a620.appspot.com/o/avatar%2F1024118974690.4583.jpeg?alt=media&token=40090336-7809-4771-914a-20c4bc3ff9ab",
       "isAdmin": true,
-      "cart": []
+      "cart": [],
+      "id": 1
     },
     {
-      "userName": "Phuong",
-      "password": "U2FsdGVkX1+B3jykUls1oOR+rNWYWV+X0mRZ3dLvt3U=",
+      "userName": "123",
+      "password": "U2FsdGVkX1/Gb8gmPUgiI1WCPl26fSEiCna57arSC7Y=",
       "email": "asd@asd.com",
       "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Unknown_person.jpg/925px-Unknown_person.jpg",
       "isAdmin": false,
       "status": true,
       "cart": [],
       "id": 2
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "LT 03 Premium Nappa White",
+      "category": "loafers",
+      "introduction": "",
+      "price": 5488821,
+      "quantity": 1,
+      "status": true,
+      "size": [36, 37, 38, 39, 40],
+      "images": []
     }
   ]
 }

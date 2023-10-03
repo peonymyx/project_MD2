@@ -54,7 +54,7 @@ export default function Register() {
       cart: [],
     }
 
-    let res = await api.userApi.findByUserName(data.email);
+    let res = await api.userApi.findByEmail(data.email);
     if (res.data.length > 0) {
       alert("tài khoản đã tồn tại")
     } else {
@@ -96,7 +96,6 @@ export default function Register() {
             <img src={avatar} alt="" />
             <br />
             <input type="file" onChange={async (e) => {
-              console.log("e", e.target.files[0]);
               if (e.target.files.length != 0) {
                 let url = await uploadFileToStorage(e.target.files[0], "avatar")
                 console.log("url", url);
